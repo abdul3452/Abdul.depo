@@ -285,13 +285,7 @@
          width :60px;
          margin-left: 20px;
           }
-    
-    
-        
-        
-    
-   
-</style>
+    </style>
 
 </head>
 <body>
@@ -343,6 +337,7 @@ bu<input class="trw" type="email" name="email" id="email">
     .brw {
     color:white;
         }
+   
     .but
          {
            background-color:black;
