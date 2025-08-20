@@ -1,18 +1,87 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
-
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
-
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem 
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Site</title>
+    <style>
+      
+        h1 {
+            color:white;
+            margin-left:100px;
+           } 
+       
+       .yazı
+       {
+        color:white;
+        }
+         
+         
+        .but
+         {
+           background-color:black;
+           color:white;
+           box-shadow: 0px 0px 30px white;
+           width:100px;
+           border-radius:5px;
+           border-color:white;
+           }   
+        
+         .buto
+         {
+           background-color:black;
+           color:white;
+           box-shadow: 0px 0px 30px white;
+           width:100px; 
+           margin-left:25px;
+           border-color:white;
+           border-radius:5px;
+         }   
+       
+       
+        
+        .brn
+        {
+           background-color:black;
+           color:white;
+           box-shadow: 0px 0px 30px white;
+           width:100px; 
+           margin-left:25px;
+           border-color:white;
+           border-radius:5px;
+         }
+        
+         .bry
+         {
+           background-color:black;
+           color:white;
+           box-shadow: 0px 0px 30px white;
+           width:100px; 
+           margin-left:130px;
+           margin-top:100px;
+           border-color:white;
+           border-radius:5px; 
+              }
+        
+    </style>
+</head>
+<body style="background-color:black">
+    <h1>Hoşgeldiniz</h1>
+       <a href="Gelişmiş.html">
+       <button class="but">Ana Sayfa</button> 
+    </a>
+  
+     <a href="Kodlama video.html">
+    <button class="buto">Kodlama</button>
+    </a>
+  <button class="brn">Hakkımızda</button>
+  
+  <br><br>
+  
+    <br><br>
+    <p class="yazı"><b>Site kendi içinde yenilenecektir uzun sürerse kusurumuza bakmayınız</b></p>
+<br>
+<a href="iletişim.html">
+<button class="bry">İletişim</button>
+</a>
+</body>
+</html>
