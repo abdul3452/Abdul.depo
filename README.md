@@ -92,7 +92,7 @@
     <meta charset="UTF-8">
     <title>Kodlama Videoları</title>
 <style>
-    h2 {
+    h1 {
         color:white;
         }
         
@@ -285,13 +285,7 @@
          width :60px;
          margin-left: 20px;
           }
-    
-    
-        
-        
-    
-   
-</style>
+    </style>
 
 </head>
 <body>
@@ -337,7 +331,6 @@ bu<input class="trw" type="email" name="email" id="email">
 <head>
     <meta charset="UTF-8">
     <title>Hakkımızda</title>
-
 <style>
     
     .brw {
@@ -391,13 +384,13 @@ bu<input class="trw" type="email" name="email" id="email">
            border-color:white;
            border-radius:5px; 
               }
-</style>
+              </style>
 </head>
 <body style="background-color:black;">
 <h1 class="ytr">Hakkımızda</h1>
 <a href="Gelişmiş.html">
        <button class="but">Ana Sayfa</button> 
-    </a>
+</a>
   
      <a href="Kodlama video.html">
     <button class="buto">Kodlama</button>
